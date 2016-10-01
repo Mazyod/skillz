@@ -6,6 +6,15 @@ This library uses `erlport` to launch a python process that exposes the trueskil
 
 Exposing more of the trueskill APIs to the Elixir side.
 
+#### The Road to v1.0.0
+
+In case someone is inteseted in helping out, here are some tasks!
+
++ [ ] Run `pip install --target=./trueskill/ trueskill` as part of the build process, instead of us checking in the python code.
++ [ ] Add docs highlighting the usage of the `TrueSkill` module. *(Hint: it's just a GenServer)*
++ [ ] Publish to Hex.
++ [ ] Some Artwork would be nice :star:.
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
