@@ -1,6 +1,10 @@
 # Skillz
 
-**TODO: Add description**
+This library uses `erlport` to launch a python process that exposes the trueskill python library to Elixir. It is severely lacking, but the basics are in place.
+
+#### What's Next?
+
+Exposing more of the trueskill APIs to the Elixir side.
 
 ## Installation
 
@@ -10,7 +14,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 
     ```elixir
     def deps do
-      [{:skillz, "~> 0.1.0"}]
+      [{:skillz, "~> 0.2.0"}]
     end
     ```
 
